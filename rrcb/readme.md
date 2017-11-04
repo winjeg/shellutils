@@ -25,7 +25,7 @@ sudo yum install expect
 ## 2. edit the ini file
 the ini file should be like this:
 
-![ini_file](https://github.com/winjeg/rrcb/blob/master/init.png)
+![ini_file](https://github.com/winjeg/shellutils/blob/master/rrcb/init.png)
 ```
 1. It should not contain illegal charaters such as ' or "
 
@@ -48,7 +48,7 @@ input twice the password for encrypt the ini file
 ## 4. execute
 ./rrcb conf password
 sample output is like this:
-![ini_file](https://github.com/winjeg/rrcb/blob/master/result.png)
+![result](https://github.com/winjeg/shellutils/blob/master/rrcb/result.png)
 
 ## 5. more usage see the help content of this command
 ./rrcb -h
